@@ -4,9 +4,8 @@ Facebook Audience SDK integration for React Native, available on iOS and Android
 
 ## Example
 
-![alt text](https://raw.githubusercontent.com/ajith-ab/react-native-facebook-audience-network/main/docs/nativeAd.png)
 
-
+<img src="https://raw.githubusercontent.com/ajith-ab/react-native-facebook-audience-network/main/docs/nativeAd.png" data-canonical-src="https://raw.githubusercontent.com/ajith-ab/react-native-facebook-audience-network/main/docs/nativeAd.png" width="300" height="500" />
 
 ## Installation (Currently Android only)
 
