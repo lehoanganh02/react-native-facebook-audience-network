@@ -1,25 +1,22 @@
 import * as React from 'react';
 
 import { StyleSheet, View } from 'react-native';
-import FacebookAudienceNetworkViewManager from 'react-native-facebook-audience-network';
+import { NativeSquareAd, NativeListAd } from 'react-native-facebook-audience-network';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <FacebookAudienceNetworkViewManager color="#32a852" style={styles.box} />
+      <NativeSquareAd placementId="IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID" style={styles.box} />
+      <NativeListAd placementId="IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID" style={styles.box} />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
   },
   box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
+    width: "100%",
+  //  height: 500,
   },
 });

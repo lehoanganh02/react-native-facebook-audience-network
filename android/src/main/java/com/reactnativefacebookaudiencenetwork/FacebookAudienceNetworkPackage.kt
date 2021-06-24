@@ -12,6 +12,6 @@ class FacebookAudienceNetworkPackage : ReactPackage {
     }
 
     override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
-        return listOf(FacebookAudienceNetworkViewManager())
+        return listOf(FacebookAudienceNetworkViewManager(), FacebookAudienceNetworkListViewManager())
     }
 }
